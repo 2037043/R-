@@ -1,0 +1,46 @@
+ workshop_hate_message <- function(name = "No one", n = 3) {
++   text_to_print <- paste(name, "hate(s)", "this workshop")
++   for(i in 1:n) {
++     print(text_to_print)
++   }
++ }
+> workshop_hate_message("All of us",4)
+[1] "All of us hate(s) this workshop"
+[1] "All of us hate(s) this workshop"
+[1] "All of us hate(s) this workshop"
+[1] "All of us hate(s) this workshop"
+
+workshop_hate_message("ma eco class hate this class",23)
+[1] "ma eco class hate this class hate(s) this workshop"
+[1] "ma eco class hate this class hate(s) this workshop"
+[1] "ma eco class hate this class hate(s) this workshop"
+[1] "ma eco class hate this class hate(s) this workshop"
+[1] "ma eco class hate this class hate(s) this workshop"
+[1] "ma eco class hate this class hate(s) this workshop"
+[1] "ma eco class hate this class hate(s) this workshop"
+[1] "ma eco class hate this class hate(s) this workshop"
+[1] "ma eco class hate this class hate(s) this workshop"
+[1] "ma eco class hate this class hate(s) this workshop"
+[1] "ma eco class hate this class hate(s) this workshop"
+[1] "ma eco class hate this class hate(s) this workshop"
+[1] "ma eco class hate this class hate(s) this workshop"
+[1] "ma eco class hate this class hate(s) this workshop"
+[1] "ma eco class hate this class hate(s) this workshop"
+[1] "ma eco class hate this class hate(s) this workshop"
+[1] "ma eco class hate this class hate(s) this workshop"
+[1] "ma eco class hate this class hate(s) this workshop"
+[1] "ma eco class hate this class hate(s) this workshop"
+[1] "ma eco class hate this class hate(s) this workshop"
+[1] "ma eco class hate this class hate(s) this workshop"
+[1] "ma eco class hate this class hate(s) this workshop"
+[1] "ma eco class hate this class hate(s) this workshop"
+> 
+
+mysum <- function(a,b){
++   a+b
++ }
+> mysum(10,67)
+[1] 77
+
+ mean(mtcars$mpg[mtcars$gear==3])
+[1] 16.10667
